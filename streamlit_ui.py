@@ -7,6 +7,7 @@ st.caption("🚀 A chatbot about enzymes")
 with st.sidebar:
     st.title("📚 Chatbot about enzymes")
     "💻 [View the source code](https://github.com/JinyuanSun/ChatEnzyme)"
+    "📮 Feedback: jinyuansun98_at_gmail"
 
 if "messages" not in st.session_state:
     st.session_state["messages"] = []
